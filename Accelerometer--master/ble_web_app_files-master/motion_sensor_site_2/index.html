@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motion sensor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h4>Motion Sensor</h4>
+    </header>
+    <div class="button">
+        <button id="connect1">
+            CONNECT TO A SENSOR TAG
+        </button>
+        <button id="disconnect1">
+            DISCONNECT
+        </button>
+ 	<button id="download">
+	    DOWNLOAD
+	</button>
+    <script type="text/javascript" src="motion_sensor.js"></script>
+    <script type="text/javascript" src="motion_sensor_2.js"></script>
+    <script type="text/javascript" src="index.js"></script>   
+    <div>     
+<section>
+        <div>
+            <ul> <b>Time:</b> <span id="time"> </ul>
+            	<ul> <b>Gyroscope </b> (Unit: deg/s, Range: +-250):
+                <li>Gyroscope-X: <span id="gyroX1"></span> deg/s</li>
+                <li>Gyroscope-y: <span id="gyroY1"></span> deg/s</li>
+                <li>Gyroscope-z: <span id="gyroZ1"></span> deg/s</li>
+		</ul>
+            <ul> <b>Accelerometer</b> (Unit: G, Range: 8G (+-8)):
+                <li>Accelerometer-X: <span id="accX1"></span> G</li>
+                <li>Accelerometer-Y: <span id="accY1"></span> G</li>
+                <li>Accelerometer-Z: <span id="accZ1"></span> G</li>
+		</ul>
+            <!-- <ul> Magnetometer (Unit: micro Tesla, Range: +-4900):
+                <li>Magnetometer-X: <span id="magX"></span> uT</li>
+                <li>Magnetometer-Y: <span id="magY"></span> uT</li>
+                <li>Magnetometer-Z: <span id="magZ"></span> uT</li>
+            </ul> -->
+        </div>
+    </section>
+<div class="button">
+        <button id="connect2">
+            CONNECT TO A SENSOR TAG
+        </button>
+        <button id="disconnect2">
+            DISCONNECT
+        </button>
+    <div>
+    
+    <section>
+        <div>
+            <ul> Gyroscope (Unit: deg/s, Range: +-250):
+                <li>Gyroscope-X: <span id="gyroX2"></span> deg/s</li>
+                <li>Gyroscope-y: <span id="gyroY2"></span> deg/s</li>
+                <li>Gyroscope-z: <span id="gyroZ2"></span> deg/s</li>
+            </ul>
+            <ul> Accelerometer (Unit: G, Range: 8G (+-8)):
+                <li>Accelerometer-X: <span id="accX2"></span> G</li>
+                <li>Accelerometer-Y: <span id="accY2"></span> G</li>
+                <li>Accelerometer-Z: <span id="accZ2"></span> G</li>
+            </ul>
+            <!-- <ul> Magnetometer (Unit: micro Tesla, Range: +-4900):
+                <li>Magnetometer-X: <span id="magX"></span> uT</li>
+                <li>Magnetometer-Y: <span id="magY"></span> uT</li>
+                <li>Magnetometer-Z: <span id="magZ"></span> uT</li>
+            </ul> -->
+        </div>
+    </section>
+
+</body>
+</html>
